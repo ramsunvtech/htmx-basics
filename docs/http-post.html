@@ -10,13 +10,13 @@
   <form hx-post="https://jsonplaceholder.typicode.com/posts" hx-target="#responseContainer">
     <input type="text" name="name" placeholder="Name">
     <input type="email" name="email" placeholder="Email">
-    <button type="submit">Submit</button>
+    <button type="submit">Submit and Append the Response below</button>
   </form>
   
   <div id="responseContainer"></div>
 
   <button hx-post="https://jsonplaceholder.typicode.com/posts" hx-target="body">
-    Enable Your Account
+    Post and Update the Body
   </button>
 </body>
 </html>
