@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>htmx Sample</title>
-  <script src="https://cdn.jsdelivr.net/npm/htmx.org@3.0.2/dist/htmx.js"></script>
+  <script src="htmx.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <h1>htmx Sample</h1>
@@ -16,7 +16,7 @@
   <script>
     // Execute this JavaScript after htmx has loaded
     document.addEventListener('htmx:load', function (event) {
-      document.write('htmx has loaded', event);
+      document.querySelector('#dataContainer').innerHTML = 'htmx has loaded';
     });
   </script>
 </body>
