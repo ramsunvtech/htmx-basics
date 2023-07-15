@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>htmx Get Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/htmx.org@3.0.2/dist/htmx.js"></script>
+</head>
+<body>
+  <h1>htmx Get Example</h1>
+  
+  <button hx-get="/api/data" hx-swap="outerHTML">Load Data</button>
+  
+  <div id="dataContainer">
+    <p>Loading...</p>
+  </div>
+</body>
+</html>

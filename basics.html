@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>htmx Sample</title>
+  <script src="https://cdn.jsdelivr.net/npm/htmx.org@3.0.2/dist/htmx.js"></script>
+</head>
+<body>
+  <h1>htmx Sample</h1>
+  
+  <button hx-get="/api/data" hx-swap="outerHTML">Load Data</button>
+  
+  <div id="dataContainer">
+    <p>Loading...</p>
+  </div>
+  
+  <script>
+    // Execute this JavaScript after htmx has loaded
+    document.addEventListener('htmx:load', function (event) {
+      console.log('htmx has loaded', event);
+    });
+  </script>
+</body>
+</html>
