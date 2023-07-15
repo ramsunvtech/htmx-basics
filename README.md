@@ -19,6 +19,6 @@
 Carson Gross developed `htmx` in 2016. The current version is 1.8.0, which was released in March 2023. It is an open-source project that is maintained by Carson Gross and a team of contributors.
 
 
-[HTMX is the Future](https://quii.dev/)
-[HTMX on Go with Carson Gross](https://www.youtube.com/watch?v=Mw78eAp0EGw)
-[Twitter](https://twitter.com/htmx_org)
+[HTMX is the Future](https://quii.dev/)  
+[HTMX on Go with Carson Gross](https://www.youtube.com/watch?v=Mw78eAp0EGw)  
+[Twitter](https://twitter.com/htmx_org)  
